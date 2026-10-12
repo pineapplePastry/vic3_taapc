@@ -1,0 +1,88 @@
+﻿pm_cannery_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+
+	unlocking_technologies = {
+		canneries
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = -20		# x20 = -400
+			goods_input_fruit_add = 20		# x30 =  600
+			goods_input_iron_add = 10		# x40 =  400
+
+			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+
+		level_scaled = {
+			# profit = 300 (20.8)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+		}
+	}
+}
+
+REPLACE:pm_vacuum_canning = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
+	replacement_if_valid = pm_vacuum_canning_principle_3
+
+	unlocking_technologies = {
+		vacuum_canning
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = -30		# x20 = -600
+			goods_input_fish_add = 15		# x20 = 300
+			goods_input_fruit_add = 15		# x30 = 450
+			goods_input_meat_add = 15		# x30 = 450
+			goods_input_iron_add = 10		# x40 =  400
+			goods_input_oil_add = 5 		# x40 =  200
+
+			# output goods
+			goods_output_groceries_add = 60	# x30 = 1800
+		}
+
+		level_scaled = {
+			# profit = 600 (23.1)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+			building_employment_engineers_add = 200		# x3.0 = 600 laborer wages
+		}
+	}
+}
+
+REPLACE:pm_vacuum_canning_principle_3 = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
+	is_hidden_when_unavailable = yes
+
+	unlocking_principles = {
+		principle_food_standardization_3
+	}
+
+	unlocking_technologies = {
+		vacuum_canning
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = -30		# x20 = -600
+			goods_input_fish_add = 15		# x20 = 300
+			goods_input_fruit_add = 15		# x30 = 450
+			goods_input_meat_add = 15		# x30 = 450
+			goods_input_iron_add = 10		# x40 =  400
+			goods_input_oil_add = 5 		# x40 =  200
+
+			# output goods
+			goods_output_groceries_add = 70	# x30 = 2100
+		}
+
+		level_scaled = {
+			# profit = 600 (23.1)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+			building_employment_engineers_add = 200		# x3.0 = 600 laborer wages
+		}
+	}
+}

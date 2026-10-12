@@ -1,9 +1,0 @@
-﻿namespace = tapc_error_suppression
-
-tapc_error_suppression.0001 = {
-  hidden = yes
-  orphan = yes
-  trigger = {
-    exists = global_var:tapc_is_loaded
-  }
-}

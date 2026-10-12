@@ -1,0 +1,11 @@
+﻿REPLACE:pmg_canning = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_disabled_canning
+		pm_cannery
+		pm_cannery_fish
+		pm_cannery_fruit
+		pm_vacuum_canning
+		pm_vacuum_canning_principle_3
+	}
+}
