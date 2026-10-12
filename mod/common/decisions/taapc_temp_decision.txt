@@ -10,13 +10,7 @@
     when_taken = {
         add_technology_researched = mobile_armor
         add_technology_researched = combustion_engine
-        capital = {
-            create_building= {
-                building = "building_university"
-                level = 1
-                #reserves=1
-            }
-        }
+        add_technology_researched = military_aviation
     }
 
     ai_chance = {
