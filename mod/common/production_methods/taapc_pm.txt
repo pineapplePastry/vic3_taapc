@@ -46,7 +46,7 @@ pm_mass_aeroplane_production = {
     }
 }
 
-pm_reduced_tank_production = {
+REPLACE:pm_tank_production = {
     texture = "gfx/interface/icons/production_method_icons/tanks.dds"
 
     unlocking_technologies = {
@@ -69,7 +69,7 @@ pm_reduced_tank_production = {
     }
 }
 
-REPLACE:pm_tank_production = {
+pm_increased_tank_production = {
     texture = "gfx/interface/icons/production_method_icons/tanks.dds"
 
     unlocking_technologies = {
