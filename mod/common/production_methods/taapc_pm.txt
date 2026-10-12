@@ -45,3 +45,72 @@ pm_mass_aeroplane_production = {
         }
     }
 }
+
+pm_reduced_tank_production = {
+    texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+
+    unlocking_technologies = {
+        mobile_armor
+    }
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 1
+
+            # output goods
+            goods_output_automobiles_add = -4
+            goods_output_tanks_add = 4
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 50
+        }
+    }
+}
+
+REPLACE:pm_tank_production = {
+    texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+
+    unlocking_technologies = {
+        mobile_armor
+    }
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 3
+
+            # output goods
+            goods_output_automobiles_add = -12
+            goods_output_tanks_add = 12
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 150
+        }
+    }
+}
+
+pm_mass_tank_production = {
+    texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+
+    unlocking_technologies = {
+        mobile_armor
+    }
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 5
+
+            # output goods
+            goods_output_automobiles_add = -20
+            goods_output_tanks_add = 20
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 250
+        }
+    }
+}
