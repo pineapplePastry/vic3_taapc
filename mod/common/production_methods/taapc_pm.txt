@@ -23,7 +23,7 @@
 }
 
 pm_mass_aeroplane_production = {
-    texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
+    texture = "gfx/interface/icons/production_method_icons/mass_aeroplane_production.dds"
 
     unlocking_technologies = {
         military_aviation
@@ -93,7 +93,7 @@ pm_increased_tank_production = {
 }
 
 pm_mass_tank_production = {
-    texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+    texture = "gfx/interface/icons/production_method_icons/mass_tank_production.dds"
 
     unlocking_technologies = {
         mobile_armor
