@@ -2,5 +2,5 @@
  #Aeroplanes
  pm_mass_aeroplane_production: "Production de masse d'avions"
  #Tanks
- pm_increased_tank_production: "Production accrue de chars"
- pm_mass_tank_production: "Production de masse de chars"
+ pm_increased_tank_production: "Production accrue de tanks"
+ pm_mass_tank_production: "Production de masse de tanks"
