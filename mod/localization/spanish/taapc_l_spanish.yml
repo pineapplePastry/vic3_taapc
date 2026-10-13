@@ -1,6 +1,6 @@
 ﻿l_spanish:
  #Aeroplanes
- pm_mass_aeroplane_production: "Producción en masa de aviones"
+ pm_mass_aeroplane_production: "Producción en serie de aeroplanos"
  #Tanks
- pm_increased_tank_production: "Mayor producción de tanques"
- pm_mass_tank_production: "Producción en masa de tanques"
+ pm_increased_tank_production: "Producción de tanques incrementada"
+ pm_mass_tank_production: "Producción en serie de tanques"
